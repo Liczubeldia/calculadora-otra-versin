@@ -1,0 +1,38 @@
+/* index.css */
+
+/* Estilos globales para el cuerpo de la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Estilos para la calculadora */
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Estilos para los botones de la calculadora */
+.calculator button {
+  width: 22%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calculator button:hover {
+  background-color: #0056b3;
+}
+
+.calculator button:active {
+  background-color: #004085;
+}
